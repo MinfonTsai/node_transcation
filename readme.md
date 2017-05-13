@@ -1,24 +1,22 @@
-This is a very basic example of CRUD in Node.js n mySQL.
+Blockchain or Mobile internet account Transaction need MySQL CRUD and display by Node.js.
 
-Installation,Live DEMO, and tutorial here : http://teknosains.com/i/simple-crud-nodejs-mysql
+have a Bootstrap like ListView for checking record.
 
-## Installation
-*for newbies : Clone or download zip to your machine then hit this :
+ << Installation >>
+Git clone or wget download .zip to your computer by:
 
 	npm install
 
-## Configuration (database)
-app.js
+MySQL database configuration
+sudo nano app.js
 
         host: 'localhost',
         user: 'root',
-        password : 'root',
+        password : 'password',
         port : 3306, //port mysql
         database:'nodejs'	
 
-
 	
-You're gonna need to create a DB named 'nodejs' and import customer.sql
+for initial need create DB named 'nodejs' then import customer.sql
 
-## NOTES
-This repo still use Express 3, you might want to upgrade yourself or you can Go here (https://github.com/codetrash/rest-crud) for newest Express 
+#Note: Repo used Express 3
